@@ -10,14 +10,14 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
-    background: #333;
+    background: rgb(199, 226, 227);
     font-size: 24px;
 }
 
 .navbar a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color:cornflowerblue;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -26,3 +26,7 @@ body {
 main {
     margin-top: 100px;
 }
+
+.navbar a:hover {
+    background: rgb(255, 255, 255);
+  }
